@@ -7,7 +7,7 @@ Data structure and problems in LeetCode using Python3
 -----
 ## 1. binary Search
 ### 1.1 Leetcode34. Find First and Last Position of Element in Sorted Array
-[参考思路]https://blog.csdn.net/qq508618087/article/details/50448481
+[参考思路](https://blog.csdn.net/qq508618087/article/details/50448481)
 
 ## 6. Dynamic programing
 ### 6.1 概念和思路认识：
