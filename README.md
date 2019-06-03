@@ -28,7 +28,7 @@ https://github.com/Celineling/Algorithm/blob/master/6.%20Dynamic%20Programming.i
 >7.2.2 Every tree has a topological ordering, since, by definition, they do not contain any cycles.(checking from bottum)<br>
 
 ### 7.3 Topological sort algorithm
-#### 7.3.1 Steps:
+#### 7.3.1 Steps(outdegree=0):
 >Pick an unvisited node randomly, push in stack <br>
 
 >Beginning with the selected node, do a DFS exploring only unvisited nodes, till the node has no path to go(outdegree is 0), then call the dfs back.<br>
@@ -92,7 +92,7 @@ def function topsort(graph):
   return i-1  
 ```
 
-#### 7.3.3 Lahn's algorithm
+#### 7.3.3 Lahn's algorithm(indegree=0)
 ```
 while S is non-empty do:
   remove node V from S
