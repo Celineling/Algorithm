@@ -94,14 +94,14 @@ def function topsort(graph):
 ```
 
 #### 7.3.3 Lahn's algorithm
-
-while S is non-empty do:<br>
-  remove node V from S <br>
-  add v to tail of L <br>
-  for each node W with an edge e form v to w do:<br>
-    remove edge e from the graph<br>
-    if w has `no other incoming edges`: #indegree is 0<br>
+```
+while S is non-empty do:
+  remove node V from S
+  add v to tail of L 
+  for each node W with an edge e form v to w do:
+    remove edge e from the graph
+    if w has `no other incoming edges`: #indegree is 0
       add w into S
-      
+ ```    
       
 ### 7.4 Practices problems
